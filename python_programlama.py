@@ -11,24 +11,6 @@ type(9)
 type(9.2)
 type("HELLO AI ERA")
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 #STRINGLERE YAKINDAN BAKALIM
 
 ""
@@ -574,11 +556,7 @@ set1.issubset(set2)
 
 set2.issuperset(set1)
 
-
-
-
 dir(str)
-
 
 #FONKSIYONLARA GIRIS VE FONKSIYON OKURYAZARLIGI
 
@@ -938,9 +916,6 @@ while sayi < 9:
 
 #Sinif Nedir?
     
-
-    
-
 #Sinif Ozellikleri (Class attributes)
 
 class VeriBilimci():
@@ -1071,9 +1046,6 @@ class Employee_yeni():
 ali = Employee_yeni("a","b","c")
 ali.FirstName
 
-
-
-
 #Python'da Fonksiyonel Programlama
 
 #Fonksiyonlar dilin bastacidir. 
@@ -1138,12 +1110,6 @@ example_lines = read('deneme.txt')
 lines_count = count(example_lines)
 lines_count
 
-
-
-
-
-
-
 #Vektorel Operasyonlar (Vectorel Operations)
 #OOP
 a = [1,2,3,4]
@@ -1165,8 +1131,6 @@ a = np.array([1,2,3,4])
 b = np.array([2,3,4,5])
 
 a*b
-
-
 
 #Isimsiz Fonksiyonlar (Anonymous Functions)
 
@@ -1219,7 +1183,6 @@ def yeni_maas(x):
     
 maaslar = [1000,2000,3000,4000]  
 
-
 #test
 import HesapModulu 
 HesapModulu.yeni_maas(1000)
@@ -1262,8 +1225,6 @@ except TypeError:
     print("Sayi ve string problemi")
 
 
-
-
 a = 10    
 b = 2
 
@@ -1275,7 +1236,6 @@ except TypeError:
     print("Sayi ve string problemi")
 
 
-
 a = [13, 10, 15, 12, 17, 12, 19, 18, 11, 12, 190]
 a.sort()
 a
@@ -1284,5 +1244,3 @@ a
 a
 import numpy as np
 np.median(a)
-
-
